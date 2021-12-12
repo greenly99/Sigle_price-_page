@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title> mobile payment page </title>
+            <link rel="stylesheet" href="paymentsyle.css" >
+    </head>
+
+    <body>
+        <div class="app-container">
+            <div class="top-box">
+                <p><span class="left-icon">&#x2190;</span>CHECKOUT<span class="right-icon">&#xb7;&#xb7;&#xb7;</span></p>
+            </div>
+
+            <div class="middle-box">
+                <h1><span>&#x20B9;</span>329</h1>
+                <p>pay</p>
+            </div>
+            <div class="bottom-box">
+                <button type="button" class="payment-option-btn">Pay with PayPal</button>
+                <button type="button" class="payment-option-btn">Pay using NetBanking</button>
+
+                <div class="card-details">
+                    <p>
+                        Pay using credit or debitcard
+                    </p>
+                    <div class="card-num-field-group">
+                        <label> Card Number</label>
+                        <input type="text" class="card-num-field" placeholder="xxxx-xxxx-xxxx" required maxlength="12" minlength="12">
+                    </div>
+
+                    <div class="date-num-field-group">
+                        <label> Expiry Date</label>
+                        <input type="text" class="date-field" placeholder="mm" required maxlength="2" minlength="2">
+                        <input type="text" class="date-field" placeholder="yyyy" required maxlength="4" minlength="4">
+                    </div>
+
+                    <div class="cvc-field-group">
+                        <label> CVC</label>
+                        <input type="password" class="cvc-field" placeholder="xxx"required maxlength="3" minlength="3">
+                    </div>
+
+                    <div class="name-field-group">
+                        <label> Card Holder Name</label>
+                        <input type="text" class="name-field " placeholder="Full Name" required maxlength="20" minlength="20">
+                    </div>
+                    <button type="button" class="pay-btn"><a href="sucesfull.html" >Pay Now</a></button>
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
